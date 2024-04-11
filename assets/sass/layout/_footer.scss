@@ -1,0 +1,77 @@
+footer {
+  background-color: $secondary-color;
+  padding: 5rem;
+  margin-top: 100px;
+
+  .all {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: $third-color;
+
+    .location {
+      h1 {
+        font-weight: bold;
+      }
+      p {
+        margin-left: -15px;
+        font-size: large;
+        margin-top: 20px;
+        width: 200px;
+      }
+    }
+  }
+  .around {
+    h1 {
+      font-weight: bold;
+    }
+    .social {
+      cursor: pointer;
+      margin-top: 20px;
+      font-size: 33px;
+      margin-left: 30px;
+
+      .fa-facebook:hover {
+        color: black;
+        transition: 0.5s;
+      }
+      .fa-twitter:hover {
+        color: black;
+        transition: 0.5s;
+      }
+      .fa-linkedin:hover {
+        color: black;
+        transition: 0.5s;
+      }
+      .fa-instagram:hover {
+        color: black;
+        transition: 0.5s;
+      }
+    }
+  }
+
+  .freelance {
+    h1 {
+      font-weight: bold;
+    }
+    p {
+      font-size: large;
+      width: 270px;
+      a {
+        color: aqua;
+      }
+    }
+  }
+}
+//<!-- SECTION COPYRIGHT -->
+
+#copyright {
+  background-color: #1a252f;
+  .copyright {
+    p {
+      color: $third-color;
+      @include Flexbox;
+      padding: 2rem;
+    }
+  }
+}

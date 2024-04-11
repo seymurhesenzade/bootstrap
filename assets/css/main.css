@@ -1,50 +1,68 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style-type: none;
-  outline: none;
-  text-decoration: none;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-header {
+footer {
   background-color: #2c3e50;
+  padding: 5rem;
+  margin-top: 100px;
 }
-
-.navbar {
+footer .all {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  justify-content: space-between;
-  padding: 2rem;
-}
-.navbar h2 {
-  cursor: pointer;
-  margin-left: -100px;
   color: white;
 }
-
-.portfolio {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  margin-right: -50px;
+footer .all .location h1 {
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+}
+footer .all .location p {
+  margin-left: -15px;
+  font-size: large;
+  margin-top: 20px;
+  width: 200px;
+}
+footer .around h1 {
+  font-weight: bold;
+}
+footer .around .social {
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 33px;
+  margin-left: 30px;
+}
+footer .around .social .fa-facebook:hover {
+  color: black;
   transition: 0.5s;
 }
-.portfolio a:hover {
-  color: #1ABC9C;
+footer .around .social .fa-twitter:hover {
+  color: black;
+  transition: 0.5s;
 }
-.portfolio a {
-  transition: 0.4s;
+footer .around .social .fa-linkedin:hover {
+  color: black;
+  transition: 0.5s;
+}
+footer .around .social .fa-instagram:hover {
+  color: black;
+  transition: 0.5s;
+}
+footer .freelance h1 {
+  font-weight: bold;
+}
+footer .freelance p {
+  font-size: large;
+  width: 270px;
+}
+footer .freelance p a {
+  color: aqua;
+}
+
+#copyright {
+  background-color: #1a252f;
+}
+#copyright .copyright p {
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
 
 #start {
@@ -104,7 +122,7 @@ header {
   width: 350px;
 }
 #portfolio .cards .card1:hover img {
-  visibility: hidden;
+  opacity: 0.3;
 }
 #portfolio .cards .card2:hover {
   background-color: #1ABC9C;
@@ -113,7 +131,7 @@ header {
   width: 350px;
 }
 #portfolio .cards .card2:hover img {
-  visibility: hidden;
+  opacity: 0.3;
 }
 #portfolio .cards .card3:hover {
   background-color: #1ABC9C;
@@ -122,7 +140,7 @@ header {
   width: 350px;
 }
 #portfolio .cards .card3:hover img {
-  visibility: hidden;
+  opacity: 0.3;
 }
 #portfolio .cards .card4:hover {
   background-color: #1ABC9C;
@@ -131,7 +149,7 @@ header {
   width: 350px;
 }
 #portfolio .cards .card4:hover img {
-  visibility: hidden;
+  opacity: 0.3;
 }
 #portfolio .cards .card5:hover {
   background-color: #1ABC9C;
@@ -140,7 +158,7 @@ header {
   width: 350px;
 }
 #portfolio .cards .card5:hover img {
-  visibility: hidden;
+  opacity: 0.3;
 }
 #portfolio .cards .card6:hover {
   background-color: #1ABC9C;
@@ -149,7 +167,7 @@ header {
   width: 350px;
 }
 #portfolio .cards .card6:hover img {
-  visibility: hidden;
+  opacity: 0.3;
 }
 
 #about {
@@ -188,6 +206,7 @@ header {
   margin-top: 100px;
 }
 #about .btn button {
+  cursor: pointer;
   padding: 20px;
   background-color: #1ABC9C;
   border: 3px solid honeydew;
@@ -201,4 +220,91 @@ header {
 }
 #about .btn button .fa-download {
   margin-right: 10px;
+}
+
+#contact h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin-top: 300px;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+.input hr {
+  margin-left: 160px;
+  width: 750px;
+}
+.input input {
+  font-size: 40px;
+  display: block;
+  margin-left: 150px;
+  padding: 10px;
+  margin-bottom: 40 px;
+  border: none;
+}
+
+.contact button {
+  cursor: pointer;
+  padding: 20px;
+  background-color: #1ABC9C;
+  border-radius: 10px;
+  border: 3px solid honeydew;
+  color: white;
+  transition: 0.4s;
+  margin-left: 160px;
+  margin-top: 10px;
+}
+.contact button:hover {
+  background-color: #0c7f68;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #2c3e50;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.navbar h2 {
+  cursor: pointer;
+  margin-left: -100px;
+  color: white;
+}
+
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-right: -50px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+}
+.portfolio a:hover {
+  color: #1ABC9C;
+}
+.portfolio a {
+  transition: 0.4s;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
